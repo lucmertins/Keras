@@ -30,7 +30,7 @@ model.fit(X_train, Y_train, batch_size=32, nb_epoch=2,
 
 y_hat = model.predict_classes(X_test)
 
-print("\nTest classification rate %0.05f" % model.evaluate(X_test, Y_test)[0])
+print("\nTeste classification rate %0.05f" % model.evaluate(X_test, Y_test)[0])
 
 pd.crosstab(y_hat, y_test)
 
