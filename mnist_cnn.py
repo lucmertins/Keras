@@ -20,7 +20,7 @@ from keras import backend as K
 
 batch_size = 128
 nb_classes = 10
-nb_epoch = 12
+nb_epoch = 10
 
 # input image dimensions
 img_rows, img_cols = 28, 28
